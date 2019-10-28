@@ -2,7 +2,7 @@
 Code for Policy Continuation with Hindsight Inverse Dynamics (PCHID)
 
 ## There are three environments
-- bitflip
+- Bitflip
 
 The bitflip environment was introduced by [Hindsight experience replay (HER)](http://papers.nips.cc/paper/7090-hindsight-experience-replay)	
 
@@ -14,3 +14,4 @@ Our experiment on the GridWorld domain is based on previous work of [Value Itera
 
 - FetchReach
 
+The FetchReach environment is one of four OpenAI [Fetch envs](https://github.com/openai/gym/tree/master/gym/envs/robotics/fetch). As for the other three environments (Push, Slide, PickAndPlace), synchoronous improvement is needed to further improve PCHID's learning efficiency.
